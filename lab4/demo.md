@@ -1,0 +1,2 @@
+generate 10 dummy articles related to /workspaces/Agent4BioPhD/lab4/data/Badia-i-Mompel et al 2023.md and put it in /workspaces/Agent4BioPhD/lab4 
+then read through the 10 articles to simulate writing a review article introduction 

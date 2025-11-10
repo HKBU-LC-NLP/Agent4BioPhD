@@ -1,0 +1,914 @@
+{
+  "total_tools": 734,
+  "relevant_tools_count": 91,
+  "top_20_tools": [
+    {
+      "name": "HPA_get_protein_interactions_by_gene",
+      "score": 4,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "protein",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "enrichr_gene_enrichment_analysis",
+      "score": 4,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation",
+        "network analysis"
+      ]
+    },
+    {
+      "name": "AdverseEventPredictionQuestionGenerator",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "AdverseEventPredictionQuestionGeneratorWithContext",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "FDA_get_brand_name_generic_name",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "FDA_get_drug_generic_name",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "FDA_get_drug_names_by_general_precautions",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "FDA_get_general_precautions_by_drug_name",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "GO_get_annotations_for_gene",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "GO_get_genes_for_term",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "GWAS_search_associations_by_gene",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "HPA_get_biological_processes_by_gene",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "HPA_get_cancer_prognostics_by_gene",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "HPA_get_comparative_expression_by_gene_and_cellline",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "HPA_get_comprehensive_gene_details_by_ensembl_id",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "HPA_get_disease_expression_by_gene_tissue_disease",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "HPA_get_gene_basic_info_by_ensembl_id",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "HPA_get_gene_tsv_data_by_ensembl_id",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "HPA_search_genes_by_query",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "HypothesisGenerator",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    }
+  ],
+  "all_relevant_tools": [
+    {
+      "name": "HPA_get_protein_interactions_by_gene",
+      "score": 4,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "protein",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "enrichr_gene_enrichment_analysis",
+      "score": 4,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation",
+        "network analysis"
+      ]
+    },
+    {
+      "name": "AdverseEventPredictionQuestionGenerator",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "AdverseEventPredictionQuestionGeneratorWithContext",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "FDA_get_brand_name_generic_name",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "FDA_get_drug_generic_name",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "FDA_get_drug_names_by_general_precautions",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "FDA_get_general_precautions_by_drug_name",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "GO_get_annotations_for_gene",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "GO_get_genes_for_term",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "GWAS_search_associations_by_gene",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "HPA_get_biological_processes_by_gene",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "HPA_get_cancer_prognostics_by_gene",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "HPA_get_comparative_expression_by_gene_and_cellline",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "HPA_get_comprehensive_gene_details_by_ensembl_id",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "HPA_get_disease_expression_by_gene_tissue_disease",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "HPA_get_gene_basic_info_by_ensembl_id",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "HPA_get_gene_tsv_data_by_ensembl_id",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "HPA_search_genes_by_query",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "HypothesisGenerator",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "LabelGenerator",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "MedlinePlus_get_genetics_condition_by_name",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "MedlinePlus_get_genetics_gene_by_name",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "MedlinePlus_get_genetics_index",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "OpenTargets_get_drug_chembId_by_generic_name",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "OpenTargets_get_gene_ontology_terms_by_goID",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "OpenTargets_get_target_gene_ontology_by_ensemblID",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "TestCaseGenerator",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "ToolGraphGenerationPipeline",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "ToolMetadataGenerationPipeline",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "ToolMetadataGenerator",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "UnifiedToolGenerator",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "cancer_gene_census_disease_target_score",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "dbsnp_search_by_gene",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "ensembl_lookup_gene",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "get_cellxgene_census_info",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "get_gene_name_by_entity_id",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "gnomad_get_gene_constraints",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "gwas_get_snps_for_gene",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "kegg_find_genes",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "kegg_get_gene_info",
+      "score": 3,
+      "matched_concepts": [
+        "gene regulatory network",
+        "gene expression",
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "ReMap_get_transcription_factor_binding",
+      "score": 2,
+      "matched_concepts": [
+        "transcription factor",
+        "DNA binding"
+      ]
+    },
+    {
+      "name": "SCREEN_get_regulatory_elements",
+      "score": 2,
+      "matched_concepts": [
+        "gene regulatory network",
+        "regulatory elements"
+      ]
+    },
+    {
+      "name": "get_networkx_info",
+      "score": 2,
+      "matched_concepts": [
+        "gene regulatory network",
+        "network analysis"
+      ]
+    },
+    {
+      "name": "BLAST_protein_search",
+      "score": 1,
+      "matched_concepts": [
+        "protein"
+      ]
+    },
+    {
+      "name": "DataAnalysisValidityReviewer",
+      "score": 1,
+      "matched_concepts": [
+        "network analysis"
+      ]
+    },
+    {
+      "name": "ENCODE_list_files",
+      "score": 1,
+      "matched_concepts": [
+        "ENCODE"
+      ]
+    },
+    {
+      "name": "ENCODE_search_experiments",
+      "score": 1,
+      "matched_concepts": [
+        "ENCODE"
+      ]
+    },
+    {
+      "name": "FDA_get_drug_name_by_pharmacogenomics",
+      "score": 1,
+      "matched_concepts": [
+        "genomics"
+      ]
+    },
+    {
+      "name": "FDA_get_drug_names_by_spl_indexing_data_elements",
+      "score": 1,
+      "matched_concepts": [
+        "regulatory elements"
+      ]
+    },
+    {
+      "name": "FDA_get_pharmacogenomics_info_by_drug_name",
+      "score": 1,
+      "matched_concepts": [
+        "genomics"
+      ]
+    },
+    {
+      "name": "FDA_get_spl_indexing_data_elements_by_drug_name",
+      "score": 1,
+      "matched_concepts": [
+        "regulatory elements"
+      ]
+    },
+    {
+      "name": "GTEx_get_expression_summary",
+      "score": 1,
+      "matched_concepts": [
+        "gene expression"
+      ]
+    },
+    {
+      "name": "HPA_get_contextual_biological_process_analysis",
+      "score": 1,
+      "matched_concepts": [
+        "network analysis"
+      ]
+    },
+    {
+      "name": "HPA_get_rna_expression_by_source",
+      "score": 1,
+      "matched_concepts": [
+        "gene expression"
+      ]
+    },
+    {
+      "name": "HPA_get_rna_expression_in_specific_tissues",
+      "score": 1,
+      "matched_concepts": [
+        "gene expression"
+      ]
+    },
+    {
+      "name": "InterPro_get_protein_domains",
+      "score": 1,
+      "matched_concepts": [
+        "protein"
+      ]
+    },
+    {
+      "name": "JASPAR_get_transcription_factors",
+      "score": 1,
+      "matched_concepts": [
+        "transcription factor"
+      ]
+    },
+    {
+      "name": "OpenTargets_drug_pharmacogenomics_data",
+      "score": 1,
+      "matched_concepts": [
+        "genomics"
+      ]
+    },
+    {
+      "name": "Reactome_get_pathway_reactions",
+      "score": 1,
+      "matched_concepts": [
+        "pathway"
+      ]
+    },
+    {
+      "name": "UniProt_get_alternative_names_by_accession",
+      "score": 1,
+      "matched_concepts": [
+        "UniProt"
+      ]
+    },
+    {
+      "name": "UniProt_get_disease_variants_by_accession",
+      "score": 1,
+      "matched_concepts": [
+        "UniProt"
+      ]
+    },
+    {
+      "name": "UniProt_get_entry_by_accession",
+      "score": 1,
+      "matched_concepts": [
+        "UniProt"
+      ]
+    },
+    {
+      "name": "UniProt_get_function_by_accession",
+      "score": 1,
+      "matched_concepts": [
+        "UniProt"
+      ]
+    },
+    {
+      "name": "UniProt_get_isoform_ids_by_accession",
+      "score": 1,
+      "matched_concepts": [
+        "UniProt"
+      ]
+    },
+    {
+      "name": "UniProt_get_organism_by_accession",
+      "score": 1,
+      "matched_concepts": [
+        "UniProt"
+      ]
+    },
+    {
+      "name": "UniProt_get_ptm_processing_by_accession",
+      "score": 1,
+      "matched_concepts": [
+        "UniProt"
+      ]
+    },
+    {
+      "name": "UniProt_get_recommended_name_by_accession",
+      "score": 1,
+      "matched_concepts": [
+        "UniProt"
+      ]
+    },
+    {
+      "name": "UniProt_get_sequence_by_accession",
+      "score": 1,
+      "matched_concepts": [
+        "UniProt"
+      ]
+    },
+    {
+      "name": "UniProt_get_subcellular_location_by_accession",
+      "score": 1,
+      "matched_concepts": [
+        "UniProt"
+      ]
+    },
+    {
+      "name": "UniProt_id_mapping",
+      "score": 1,
+      "matched_concepts": [
+        "UniProt"
+      ]
+    },
+    {
+      "name": "UniProt_search",
+      "score": 1,
+      "matched_concepts": [
+        "UniProt"
+      ]
+    },
+    {
+      "name": "WikiPathways_get_pathway",
+      "score": 1,
+      "matched_concepts": [
+        "pathway"
+      ]
+    },
+    {
+      "name": "WikiPathways_search",
+      "score": 1,
+      "matched_concepts": [
+        "pathway"
+      ]
+    },
+    {
+      "name": "alphafold_get_annotations",
+      "score": 1,
+      "matched_concepts": [
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "drugbank_get_drug_name_and_description_by_pathway_name",
+      "score": 1,
+      "matched_concepts": [
+        "pathway"
+      ]
+    },
+    {
+      "name": "drugbank_get_pathways_reactions_by_drug_or_id",
+      "score": 1,
+      "matched_concepts": [
+        "pathway"
+      ]
+    },
+    {
+      "name": "expression_atlas_disease_target_score",
+      "score": 1,
+      "matched_concepts": [
+        "gene expression"
+      ]
+    },
+    {
+      "name": "genomics_england_disease_target_score",
+      "score": 1,
+      "matched_concepts": [
+        "genomics"
+      ]
+    },
+    {
+      "name": "get_binding_affinity_by_pdb_id",
+      "score": 1,
+      "matched_concepts": [
+        "DNA binding"
+      ]
+    },
+    {
+      "name": "get_mdanalysis_info",
+      "score": 1,
+      "matched_concepts": [
+        "network analysis"
+      ]
+    },
+    {
+      "name": "get_mutation_annotations_by_pdb_id",
+      "score": 1,
+      "matched_concepts": [
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "get_polymer_entity_annotations",
+      "score": 1,
+      "matched_concepts": [
+        "gene annotation"
+      ]
+    },
+    {
+      "name": "get_protein_classification_by_pdb_id",
+      "score": 1,
+      "matched_concepts": [
+        "protein"
+      ]
+    },
+    {
+      "name": "get_protein_metadata_by_pdb_id",
+      "score": 1,
+      "matched_concepts": [
+        "protein"
+      ]
+    },
+    {
+      "name": "get_target_cofactor_info",
+      "score": 1,
+      "matched_concepts": [
+        "transcription factor"
+      ]
+    },
+    {
+      "name": "get_uniprot_accession_by_entity_id",
+      "score": 1,
+      "matched_concepts": [
+        "UniProt"
+      ]
+    },
+    {
+      "name": "humanbase_ppi_analysis",
+      "score": 1,
+      "matched_concepts": [
+        "network analysis"
+      ]
+    },
+    {
+      "name": "kegg_get_pathway_info",
+      "score": 1,
+      "matched_concepts": [
+        "pathway"
+      ]
+    },
+    {
+      "name": "kegg_search_pathway",
+      "score": 1,
+      "matched_concepts": [
+        "pathway"
+      ]
+    },
+    {
+      "name": "visualize_protein_structure_3d",
+      "score": 1,
+      "matched_concepts": [
+        "protein"
+      ]
+    }
+  ]
+}
